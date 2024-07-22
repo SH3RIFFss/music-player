@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(#000086, #000071, #00004b);
+    height: 100vh;
+}
+button{
+    background-color: inherit;
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form >input{
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.secMain {
+    width: 500px;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 2px #00000084;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexSEparado {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnMusic {
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.btnmusicAuxi {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: end;
+}
+
+.white {
+    color: white;
+}
+
+.block {
+    display: block;
+}
+
+.letras {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    background: linear-gradient(#000086, #000071, #00004b);
+    color: white;
+}
+.barraProgresso{
+    background-color: aliceblue;
+    height: 3px;
+    border-radius: 10px;
+}
+.progresso{
+    --progress:0%;
+    background-color: cadetblue;
+    height: 3px;
+    width: var(--progress);
+}
+.containerProgresso{
+    cursor: pointer;
+    padding: 1rem;
+}
+.bi{
+    margin: 3px;
+}
+.flex-colums{
+    display: flex;
+    flex-direction: column;
+}
